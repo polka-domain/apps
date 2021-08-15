@@ -149,6 +149,7 @@
   "rpc.test.phala": "Phala PoC-4",
   "rpc.test.phoenix": "Phoenix Mashnet",
   "rpc.test.polkadex": "Polkadex",
+  "rpc.test.polkadomain": "Polkadomain",
   "rpc.test.polymesh": "Polymesh ITN",
   "rpc.test.prism": "Prism",
   "rpc.test.realis": "Realis.Network",
