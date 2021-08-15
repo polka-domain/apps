@@ -71,6 +71,7 @@ import phoenix from './phoenix';
 import plasm from './plasm';
 import plasmParachain from './plasm-parachain';
 import polkadex from './polkadex';
+import polkadomain from './polkadomain';
 import polkafoundry from './polkafoundry';
 import polymesh from './polymesh';
 import pontem from './pontem';
@@ -191,6 +192,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   'phoenix-parachain': phoenix,
   plasm,
   'plasm-parachain': plasmParachain,
+  'polka-domain-parachain': polkadomain,
   polymesh,
   pontem,
   prism,

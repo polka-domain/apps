@@ -336,6 +336,13 @@ export function createTesting (t: TFunction, firstOnly?: boolean): LinkOption[] 
       }
     },
     {
+      info: 'polkadomain',
+      text: t('rpc.test.polkadomain', 'Polkadomain', { ns: 'apps-config' }),
+      providers: {
+        'Polkadomain Foundation': 'wss://testnet-a-rpc.polkadomain.org'
+      }
+    },
+    {
       info: 'polymesh',
       text: t('rpc.test.polymesh', 'Polymesh ITN', { ns: 'apps-config' }),
       providers: {

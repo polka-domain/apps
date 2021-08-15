@@ -93,6 +93,7 @@ import nodePhala from './nodes/phala.svg';
 import nodePhoenix from './nodes/phoenix.png';
 import nodePlasm from './nodes/plasm.png';
 import nodePolkadex from './nodes/polkadex.svg';
+import nodePolkadomain from './nodes/polkadomain.png';
 import nodePolkadot from './nodes/polkadot-circle.svg';
 import nodePolkadotJs from './nodes/polkadot-js.svg';
 import nodePolkaFoundry from './nodes/polkafoundry.svg';
@@ -204,6 +205,7 @@ export const chainLogos = Object.entries({
   'Phala PC1': nodePhala,
   'PHOENIX PC1': nodePhoenix,
   'Polkadex Testnet': nodePolkadex,
+  'Polka Domain Local Testnet': nodePolkadomain,
   'PolkaFoundry PC1': nodePolkaFoundry,
   'Pontem Testnet': nodePontem,
   'Prism PC1': nodePrism,
@@ -333,6 +335,7 @@ export const nodeLogos = Object.entries({
   'Plasm Node': nodePlasm,
   'Plasm Parachain Collator': nodePlasm,
   'Polkadex Node': nodePolkadex,
+  'Polka Domain Collator': nodePolkadomain,
   'polkadot-js': nodePolkadotJs,
   'PolkaFoundry Node': nodePolkaFoundry,
   'PolkaFoundry Parachain Collator': nodePolkaFoundry,
@@ -477,6 +480,7 @@ export const namedLogos: Record<string, unknown> = {
   phoenix: nodePhoenix,
   plasm: nodePlasm,
   polkadex: nodePolkadex,
+  polkadomain: nodePolkadomain,
   polkadot: nodePolkadot,
   polkafoundry: nodePolkaFoundry,
   polkasmith: nodePolkaSmith,

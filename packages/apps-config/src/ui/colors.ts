@@ -47,6 +47,7 @@ const chainPhala = '#a7e300';
 const chainPhoenix = '#d42181';
 const chainPlasm = '#2096F3';
 const chainPolkadex = '#7C30DD';
+const chainPolkadomain = '#FF1B8';
 const chainPolkadot = '#e6007a';
 const chainPolkaFoundry = '#ff527c';
 const chainPolkaSmith = '#0DDDFB';
@@ -127,6 +128,7 @@ const nodeOriginTrail = '#131415';
 const nodePangolin = '#5744ff';
 const nodeParami = '#ee06e2';
 const nodePolkadex = '#7C30DD';
+const nodePolkadomain = '#FF1B82';
 const nodePolymesh = '#1348e4';
 const nodePontem = '#A92FAC';
 const nodePrism = 'linear-gradient(45deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%)';
@@ -242,6 +244,7 @@ export const chainColors: Record<string, string> = Object.entries({
   'Plasm PC2': chainPlasm,
   PolkaBTC: chainInterbtc,
   'Polkadex Testnet': chainPolkadex,
+  'Polka Domain Local Testnet': chainPolkadomain,
   Polkadot: chainPolkadot,
   'Polkadot CC1': chainPolkadot,
   PolkaSmith: chainPolkaSmith,
@@ -331,6 +334,7 @@ export const nodeColors = Object.entries({
   'Parami Collator': nodeParami,
   'Patract Node': nodeJupiter,
   'Polkadex Node': nodePolkadex,
+  ' Polka Domain Local Testnet': nodePolkadomain,
   'Polymesh Node': nodePolymesh,
   Pontem: nodePontem,
   'Prism Collator': nodePrism,
